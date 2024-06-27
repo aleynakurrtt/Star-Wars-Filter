@@ -1,41 +1,73 @@
-body{
-    background-image: url(ddddd.jpg);
+body {
+    background-image: url(images/nnnnn.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: -11;
-  
+    font-family: Arial, sans-serif;
+    width: 100%;
+    padding-left: 150px;
 }
-.row{
-    width: 750px;
 
+
+.container {
+    padding-top: 20px;
 }
-.card{
-    margin-left: 80px;
+
+.btn {
+    background-color: #353434;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-right: 150px;
+}
+
+.btn:hover {
+    background-color: #454545;
+}
+
+.card {
+
+    border-radius: 5px;
+    padding: 10px;
     margin-bottom: 20px;
-    text-align: center;
-    display: flex;
-   
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: auto;
+    height: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
+
 }
 
-.img-1{
-    width: 150px;
-    height: 150px;
-    object-fit: contain;
-    margin-left: 30px;
-}
-
-.btn{
+.card img {
     width: 200px;
-    height: 50px;
-    border-radius: 30px;
+    height: 200px;
+    border-radius: 5px;
+    margin-left: 50px;
 }
 
-.yazii{
-    color: bisque;
+.card h2 {
+    color: aliceblue;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
 }
 
-.form-check{
-
-    
+.card p {
+    font-size: 0.9rem;
+    color: #777777;
+    text-align: center;
 }
 
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.radiobuttonContainer {
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
